@@ -57,7 +57,7 @@ before jumping into the editor.
 
 8.  Click **Done**. Confirm the changes by clicking **Okay.**
 
-9.  Click **Save Entity**.
+9.  Click **Save Table**.
 
 ### Task 2 – Edit the Knowledge Assessment form
 
