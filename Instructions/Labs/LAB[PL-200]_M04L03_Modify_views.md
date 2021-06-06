@@ -60,7 +60,7 @@ date.
 4.  The **Owner** field will be added to the view. Click on the **Modified By**
     field.
 
-5.  Click on the **Modified By** column header, select **Insert Column**, and expand the dropdown to **All** again.
+5.  Click on the **Modified By** column header, select **Insert view column**, and expand the dropdown to **All** again.
 
 6.  Select **Modified On**. The view should now have six columns.
 
@@ -143,7 +143,7 @@ view needs.
     editable or meant to be inactive. Inactive is used in the Common Data Service to mark records as
     soft deleted as an alternate to physically deleting the records.
 
-5.  You will add the Created On field back to the view. Click on the **+ Add Column**
+5.  You will add the Created On field back to the view. Click on the **+ View column**
     button located on the top right of the view.
 
 6.  Select All and then select **Created On**.
