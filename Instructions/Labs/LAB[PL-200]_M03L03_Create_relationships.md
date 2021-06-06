@@ -80,7 +80,7 @@ Assessment and Knowledge Question entities.
 
 6.  Select **Knowledge Question** for **Related Entity** and click **Done**.
 
-7.  Click **Save Entity**. It is a good idea to save your changes as you make
+7.  Click **Save Table**. It is a good idea to save your changes as you make
     them.
 
 ### Task 2 – Knowledge Assessment to Knowledge Test Result Relationship
@@ -99,7 +99,7 @@ Assessment and Knowledge Test Result entities.
 
 5.  Click **Done**.
 
-6.  Click **Save Entity**.
+6.  Click **Save Table**.
 
 7.  From the navigation menu, click **Common Data Services Default Solution**.
 
