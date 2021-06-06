@@ -62,7 +62,7 @@ your own.
 4.  Review the different apps that are available to use as both samples and
     starting templates.
 
-5.  If you have time, choose any of these and select **Make it.** When you are done
+5.  If you have time, choose any of these and select **Create** When you are done
     proceed to Task 2.
 
 ### Task 2 – Create an app over data for Account
