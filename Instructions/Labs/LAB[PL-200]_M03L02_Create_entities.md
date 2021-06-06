@@ -107,7 +107,7 @@ fields. Knowledge Assessment will be a new custom entity you create.
 
 23. Select **Beginner** for the **Default Value** and click **Done**.
 
-25. Click **Save Entity** at the bottom of the screen.
+25. Click **Save Table** at the bottom of the screen.
 
 ### Task 2 – Create a calculated field
 
@@ -189,7 +189,7 @@ fields.
 
     - Name **Answer 4 Points** Data Type **Whole Number**.
 
-    - Click **Save Entity**.
+    - Click **Save Table**.
 
 **Note:** There are many ways you could model the answers depending on the complexity of your requirements. The approach shown here is simplified for practice purposes to focus on demonstrating how to work with the entity creation process.
 
@@ -214,7 +214,7 @@ fields.
 
 6.  Click **Done**.
 
-7.  Click **Save Entity**.
+7.  Click **Save Table**.
 
 Exercise 5 – Add existing entities to the solution
 --------------------------------------------------
