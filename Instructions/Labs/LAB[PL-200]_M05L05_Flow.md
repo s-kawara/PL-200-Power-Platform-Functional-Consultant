@@ -44,7 +44,7 @@ deactivate them.
 
 5.  From the lefthand menu, select **Flows.** (If you get a pop-up here, just choose your country/region and select **Get started.**)
 
-6.  Click **+ New** and select **+ Automated - From Blank**.
+6.  Click **+ New** and select **+ Automated cloud flow**.
 
 7.  The pop-up will show common triggers that you can easily select to jumpstart your flow configuration. Scroll through the options, but do not select anything. When you are ready, press **Skip.**
 
@@ -52,9 +52,9 @@ deactivate them.
 
 9. Select **+ New step.**
 
-10. Type **Common Data Service** into the search box.
+10. Type **Microsoft Dataverse** into the search box.
 
-11. Select **List records** from the **Actions** box. 
+11. Select **List rows** from the **Actions** box. 
 
 13. Select **Knowledge Assessments** for Entity.
 
@@ -76,7 +76,7 @@ deactivate them.
 
 21. Click **+ New Step**.
 
-22. Search for **Common Data Service** and select **Update a Record**.
+22. Search for **Microsoft Dataverse** and select **Update a row**.
 
 23. If required, select your environment. Then select **Knowledge Assessments**
     for **Entity Name**. Depending on your UI, you will then either see **Item ID** or **Record Identifier.** Select this field.
