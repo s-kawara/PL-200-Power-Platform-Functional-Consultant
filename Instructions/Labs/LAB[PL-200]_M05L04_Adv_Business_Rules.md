@@ -39,7 +39,7 @@ Exercise 1 – Prepare the Solution
 
 5.  Click to open the **Knowledge Question** entity.
 
-6.  Select the **Fields** tab and click **+ Add Field**.
+6.  Select the **Columns** tab and click **+ Add column**.
 
 7.  Enter **Question Points** for **Display Name** and select **Whole Number**
     for **Data Type**.
