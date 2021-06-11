@@ -41,27 +41,27 @@ Exercise 1 – Prepare the solution
 
 5.  Click to open the **Knowledge Assessment** entity.
 
-6.  Click select the **Fields** tab and click **+ Add Field**.
+6.  Click select the **Columns** tab and click **+ Add column**.
 
 7.  Create the field to the following specification:
     - Enter **Notify Manager** for **Display Name**.
     - Choose **Two Options** for **Data Type**.
     - Click **Done**.
 
-8.  Click **Save Entity**.
+8.  Click **Save Table**.
 
-9.  Click **+ Add Field**.
+9.  Click **+ Add column**.
 
 10. Create the field to the following specification:
     - Enter **Approval Status** for **Display Name**.
-    - Choose **Option Set** for **Data Type**.
-    - Click on the **Option Set** dropdown and choose **New Option Set**.
+    - Choose **Choice** for **Data Type**.
+    - Click on the **Choice** dropdown and choose **New choice**.
     - Enter **Waiting** for the first item and click **Add New Item**.
     - Enter **Approved** for the second item and click **Add New Item**.
     - Enter **Rejected** for the third item and click **Save**.
     - Click **Done**.
 
-16. Click **Save Entity**.
+16. Click **Save Table**.
 
 ### Task 2 – Add Field to Knowledge Assessment Form
 
@@ -93,16 +93,16 @@ Exercise 2 – Create flow
 
 2.  Make sure you are in the **Practice** environment you created.
 
-4.  Select **Flows** and click **+New.** Select **+Automated - from blank.** In the pop-up, select **Skip.** 
+4.  Select **Flows** and click **+New.** Select **Automated cloud flow** In the pop-up, select **Skip.** 
 
 6.  Type into the search box  **Common Data Service**. You will see two options for a Common Data Service connector: Common Data Service and Common Data Service (current environment). Select only Common Data Service and then select **When record is updated.**
 
 7.  Select your environment. Select **Knowledge Assessments**
-    for **Entity Name**, and select **Business Unit** for **Scope**.
+    for **Table Name**, and select **Business Unit** for **Scope**.
 
 8.  Click **Show Advanced Options**.
 
-9.  Select **NotifyManager** for Attribute Filter. It will show up with your environment prefix.
+9.  Select **NotifyManager** for Column Filter. It will show up with your environment prefix.
 
 10. Click on the **… Menu** button and select **Rename**.
 
@@ -129,10 +129,10 @@ Exercise 2 – Create flow
 
 1.  Click **Add an Action** in the **If Yes** branch.
 
-2.  Click **Common Data Service** (not Common Data Service (current environment)) and select **Update a record**.
+2.  Click **Microsoft Dataverse** (not Common Data Service (current environment)) and select **Update a row**.
 
 3.  Select your Practice environment, select **Knowledge Assessments**
-    for **Entity Name**, and click on the **Record Identifier** field.
+    for **Table Name**, and click on the **Row ID** field.
 
 4.  Select **Knowledge Assessment** from the **Dynamic Content** pane.
 
@@ -148,10 +148,10 @@ Exercise 2 – Create flow
 
 1.  Click **Add an Action** of the **If Yes** branch.
 
-2.  Select **Common Data Service** (not Common Data Service (current environment)) and select **Get a Record**.
+2.  Select **Microsoft Dataverse** (not Common Data Service (current environment)) and select **Get row by ID**.
 
-3.  Select your environment, select **Users** for **Entity
-    Name**, and click on the **Item ID** or **Record identifier** field.
+3.  Select your environment, select **Users** for **Table
+    Name**, and click on the **Row ID** or **Record identifier** field.
 
 4.  Select **Created By (Value)** from the **Dynamic Content** pane.
 
@@ -255,10 +255,10 @@ Exercise 2 – Create flow
 1.  Click **Add an Action** of the **If Yes** branch of the **Check Response**
     condition.
 
-2.  Search for **Common Data Service** and select **Update a Record**.
+2.  Search for **Microsoft Dataverse** and select **Update a row**.
 
 3.  Select **Knowledge Assessments**
-    for **Entity Name** and click on the **Record Identifier** field.
+    for **Table Name** and click on the **Record Identifier** field.
 
 4.  From the **Dynamic Content** pane, select **Knowledge Assessment** from either section.
 
@@ -275,7 +275,7 @@ Exercise 2 – Create flow
 1.  Click **Add an Action** of the **If No** branch of the **Check Response**
     condition.
 
-2.  Select **Common Data Service** and select **Update a Record**.
+2.  Select **Microsoft Dataverse** and select **Update a row**.
 
 3.  Select **Knowledge Assessments** for
     **Entity Name** and click on the **Record Identifier** field.
