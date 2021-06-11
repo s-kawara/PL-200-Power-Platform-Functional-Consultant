@@ -41,16 +41,16 @@ Exercise 1 – Prepare the Solution
 
 5.  Click to open the **Knowledge Assessment** entity.
 
-6.  Click select the **Fields** tab and **+ Add Field**.
+6.  Click select the **Columns** tab and **+ Add column**.
 
 7.  Enter **Passing Score (%)** for **Display Name**, select **Whole Number**
     for **Data Type** and click **Done**.
 
-8.  Click **Save Entity**.
+8.  Click **Save Table**.
 
-9.  Click **+ Add Field**.
+9.  Click **+ Add column**.
 
-10. Enter **Create Questions** for **Display Name** and select **Two Options**
+10. Enter **Create Questions** for **Display Name** and select **Yes/No**
     for **Data Type**.
 
 11. Click on the **Yes** option under **Items** and replace **Yes** with
@@ -61,7 +61,7 @@ Exercise 1 – Prepare the Solution
 
 13. Click **Done**.
 
-14. Click **Save Entity**.
+14. Click **Save Table**.
 
 ### Task 2 – Add Field to Knowledge Assessment Form
 
@@ -95,7 +95,7 @@ Exercise 2 – Create Business Process Flow
 
 4. Click **+New.**
 
-5. Enter **Assessment Process** for Flow Name and choose **Knowledge Assessment** for entity. 
+5. Enter **Assessment Process** for Flow Name and choose **Knowledge Assessment** for table. 
 
 6.  Click **Create.**
 
